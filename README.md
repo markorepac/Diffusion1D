@@ -9,6 +9,10 @@ This applies to all diffusion-like problems like heat diffusion where we would h
 
 $$\frac{\partial{T}}{\partial{t}} = D\frac{\partial^2{T}}{\partial{x^2}} $$
 
+where D is in that case thermal diffusivity kappa
+
+$$ D = \kappa = \frac{k}{\rho C_p} $$
+
 The file Diffusion1D.m is MATLAB code that simulates consecutive timestep evaluations of concentration from initial conditions.
 The initial concentration distribution is set to be Gaussian distribution centered around x=0
 
