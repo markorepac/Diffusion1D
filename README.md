@@ -5,12 +5,15 @@ Solving for 1D diffusion equation
 
 $$\frac{\partial{C}}{\partial{t}} = D\frac{\partial^2{C}}{\partial{x^2}} $$
 
-This is applicable to all diffusion like problems like heat diffusion where we would have Temperature instead of C.
+This applies to all diffusion-like problems like heat diffusion where we would have Temperature instead of C.
 
 $$\frac{\partial{T}}{\partial{t}} = D\frac{\partial^2{T}}{\partial{x^2}} $$
 
-This MATLAB code produces a simulation of consecutive timestep evaluations of concentration from initial conditions.
-Initial concentration distribution is set to be gaussian distribution centered around x=0
+The file Diffusion1D.m is MATLAB code that simulates consecutive timestep evaluations of concentration from initial conditions.
+The initial concentration distribution is set to be Gaussian distribution centered around x=0
 
 https://github.com/user-attachments/assets/eee3bbe7-6f1e-4c57-b9b1-85de21fdbebf
 
+Diffusion1D.py is the Python file that makes the same simulation from the same equation. The video of Python version is below
+
+![movie](https://github.com/user-attachments/assets/ecc5c3cc-f1ec-4219-af76-f7c854665918)
