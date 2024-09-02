@@ -10,6 +10,7 @@ This is applicable to all diffusion like problems like heat diffusion where we w
 $$\frac{\partial{T}}{\partial{t}} = D\frac{\partial^2{T}}{\partial{x^2}} $$
 
 This MATLAB code produces a simulation of consecutive timestep evaluations of concentration from initial conditions.
+Initial concentration distribution is set to be gaussian distribution centered around x=0
 
 https://github.com/user-attachments/assets/eee3bbe7-6f1e-4c57-b9b1-85de21fdbebf
 
